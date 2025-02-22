@@ -148,7 +148,6 @@ gin-mall
 4. 本项目运用了gorm的读写分离，所以要保证mysql的数据一致性。
 5. 引入了ELK体系，可以通过docker-compose全部up起来，也可以本地跑(确保ES和Kibana都开启)
 6. 用户创建默认金额为 **1w** ，默认头像为 `static/imgs/avatar/avatar.jpg`
-# 如何导入并测试接口
 
-使用postman测试
+# 使用postman测试
 
