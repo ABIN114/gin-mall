@@ -150,27 +150,5 @@ gin-mall
 6. 用户创建默认金额为 **1w** ，默认头像为 `static/imgs/avatar/avatar.jpg`
 # 如何导入并测试接口
 
-打开postman，点击导入
+使用postman测试
 
-![postman导入](doc/1.点击import导入.png)
-
-选择导入文件
-![选择导入接口文件](doc/2.选择文件.png)
-
-![导入](doc/3.导入.png)
-
-效果
-
-![展示](doc/4.效果.png)
-
-接下来点击Collection标题(gin-mall)
-在`Variables`中新增一个名为`url`的变量，Initial value和Current value均填入`localhost:5001/api/v1/`，然后保存，就可以开始测试了
-
-![创建环境变量](doc/6.postman创建环境变量.png)
-
-![创建环境变量](doc/7.创建url变量.png)
-
-
-这里是用postman查询es，Kibana也可以查看es！
-
-![postman-es](doc/5.postman-es.png)
